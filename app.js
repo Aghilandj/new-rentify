@@ -11,7 +11,7 @@ const port = 3001;
 
 app.use(express.json());
 
-const mongourl = "mongodb://localhost:27017/rentalDB";
+const mongourl = "mongodb+srv://aghilan:aghilan@aghilan.bhm9eqb.mongodb.net/";
 
 // Connect to MongoDB
 mongoose.connect(mongourl)
